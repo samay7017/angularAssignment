@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="image-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/005/879/539/original/cloud-computing-modern-flat-concept-for-web-banner-design-man-enters-password-and-login-to-access-cloud-storage-for-uploading-and-processing-files-illustration-with-isolated-people-scene-free-vector.jpg" alt="">
+    </div>
+    <div *ngIf="signin" class="form-container">
+        <h1 class="form-header">WELCOME BACK!</h1>
+        <form #userLogin="ngForm" (ngSubmit)="signIn(userLogin.value)" class="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" ngModel placeholder="Please enter your name...">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" ngModel placeholder="Please enter your password...">
+            <button type="submit">Login</button>
+            <a class="signUp" (click)="signUpChange()"> Dont have a account? click here to SignUp</a>
+        </form>
+    </div>
+    <div  *ngIf="!signin"  class="form-container">
+        <h1 class="form-header">GET STARTED!</h1>
+        <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" ngModel placeholder="Please enter your name...">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" ngModel placeholder="Please enter your password...">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" ngModel placeholder="Please enter your email...">
+            <button type="submit">SignUp</button>
+            <a class="signUp" (click)="signInChange()"> Already have a account? click here to SignIn</a>
+        </form>
+    </div>
+
+</div>

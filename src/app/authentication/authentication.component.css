@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-right: 150px;
+    height: 100%;
+    width: 50%;
+}
+
+.image-container > img{
+    height: 500px;
+    object-fit:cover;    
+}
+.form-container{
+    margin-top: 15px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(206, 219, 245);
+}
+.form-header{
+    color: rgb(45, 45, 152);
+    height: 20vh;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 70px;
+}
+.login-form{
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(45, 45, 152);
+    display: flex;
+    flex-direction: column;
+}
+.login-form > input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(45, 45, 152);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+}
+input:focus{
+    outline: none;
+}
+.login-form > button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    background: rgb(45, 45, 152);
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signUp{
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+::placeholder { 
+    color:rgb(34, 34, 121);
+    opacity: 1; 
+  } 

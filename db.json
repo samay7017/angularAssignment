@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "samay_singh",
+      "password": "hello@123",
+      "email": "ssamaysinght@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "aksh",
+      "password": "rajaji",
+      "email": "aksh@google.com",
+      "id": 2
+    },
+    {
+      "username": "akshat",
+      "password": "srivastava",
+      "email": "akshat.world@yahoo.com",
+      "id": 3
+    },
+    {
+      "username": "chirag",
+      "password": "Hello@123",
+      "email": "chirag26@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "shiva",
+      "password": "singh",
+      "email": "shivacr@gmail.com",
+      "id": 5
+    },
+    {
+      "username": "fgfffd",
+      "password": "sdffsd",
+      "email": "sdfsd",
+      "id": 6
+    },
+    {
+      "username": "akshat",
+      "password": "srivastava",
+      "email": "khyati.sehgal@3pillarglobal.com",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<nav class="nav">
+    <div class="header" ><h1><a  routerLink="/">Student  Portal</a></h1>
+      <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMr6hDDV89EJ9rfwI0gIpyQrd0RLhPm1wIkuT6O1Z66Q&usqp=CAU&ec=48600112" alt="">
+    </div>
+    <div>
+      <ul class="list">
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/">About us</a></li>
+        <li><a href="#">Gallery </a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" *ngIf="logoutvisible" (click)="logout()">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
